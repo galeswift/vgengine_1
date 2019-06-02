@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VGEngine", "VGEngine\VGEngine.vcproj", "{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A} = {7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box2D", "External\Box2D\Build\VC8\Box2D.vcproj", "{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VGEngine\\VGEngine.vcproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = VGEngine\\
+		SccProjectUniqueName2 = External\\Box2D\\Build\\VC8\\Box2D.vcproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = External\\Box2D\\Build\\VC8\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}.Debug|Win32.Build.0 = Debug|Win32
+		{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}.Release|Win32.ActiveCfg = Release|Win32
+		{107AAD4C-AFDE-4530-B2AB-3B8AEBE357C1}.Release|Win32.Build.0 = Release|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Debug|Win32.Build.0 = Debug|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Release|Win32.ActiveCfg = Release|Win32
+		{7A2DFC3D-516A-471D-A215-BD40E5E5AD9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

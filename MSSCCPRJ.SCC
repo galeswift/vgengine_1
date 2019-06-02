@@ -1,0 +1,13 @@
+SCC = This is a source code control file
+
+[VGEngine.vcproj]
+SCC_Aux_Path = "P4SCC#127.0.0.1:1666##Administrator##FUJITSU"
+SCC_Project_Name = Perforce Project
+
+[VGEngineSolution.sln]
+SCC_Aux_Path = "P4SCC#127.0.0.1:1666##Administrator##FUJITSU"
+SCC_Project_Name = Perforce Project
+
+[Box2D.vcproj]
+SCC_Aux_Path = "P4SCC#127.0.0.1:1666##Administrator##FUJITSU"
+SCC_Project_Name = Perforce Project
